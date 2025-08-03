@@ -2,7 +2,7 @@ import streamlit as st
 import pdfplumber
 from openai import OpenAI
 
-client = OpenAI()
+client = OpenAI(api_key=st.secrets["openai"]["api_key"])
 
 response = client.responses.create(
     model="gpt-4.1",
