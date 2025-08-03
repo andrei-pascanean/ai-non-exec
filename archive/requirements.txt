@@ -1,0 +1,7 @@
+Flask
+gevent
+gevent-websocket
+flask_sockets
+openai-whisper
+werkzeug
+numpy
